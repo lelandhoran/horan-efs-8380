@@ -1,6 +1,7 @@
 @extends('app')
 
 @section('content')
+	@if(Auth::check())
     <h1>Investment</h1>
     <a href="{{url('/investments/create')}}" class="btn btn-success">Create Investment</a>
     <hr>
@@ -42,4 +43,9 @@
         </tbody>
 
     </table>
+	@endif
+	
+	@if(Auth::guest())
+              <a href="/efs/public/login" class="btn btn-danger"> You need to login to view this!</a>
+    @endif
 @endsection

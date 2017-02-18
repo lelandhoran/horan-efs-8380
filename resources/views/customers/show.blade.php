@@ -7,35 +7,35 @@
             <tbody>
             <tr class="bg-info">
             <tr>
-                <td>Name</td>
+                <td><b>Name</b></td>
                 <td><?php echo ($customer['name']); ?></td>
             </tr>
             <tr>
-                <td>Customer ID</td>
+                <td><b>Customer ID</b></td>
                 <td><?php echo ($customer['cust_number']); ?></td>
             </tr>
             <tr>
-                <td>Address</td>
+                <td><b>Address</b></td>
                 <td><?php echo ($customer['address']); ?></td>
             </tr>
             <tr>
-                <td>City </td>
+                <td><b>City </b></td>
                 <td><?php echo ($customer['city']); ?></td>
             </tr>
             <tr>
-                <td>State</td>
+                <td><b>State</b></td>
                 <td><?php echo ($customer['state']); ?></td>
             </tr>
             <tr>
-                <td>Zip </td>
+                <td><b>Zip </b></td>
                 <td><?php echo ($customer['zip']); ?></td>
             </tr>
             <tr>
-                <td>Home Phone</td>
+                <td><b>Home Phone</b></td>
                 <td><?php echo ($customer['home_phone']); ?></td>
             </tr>
             <tr>
-                <td>Cell Phone</td>
+                <td><b>Cell Phone</b></td>
                 <td><?php echo ($customer['cell_phone']); ?></td>
             </tr>
 
