@@ -75,5 +75,4 @@ class CustomerController extends Controller
         $customer = $customer->toArray();
         return response()->json($customer);
     }
-
 }

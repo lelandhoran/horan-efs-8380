@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Laravel</title>
+        <title>Eagle Financial Services</title>
 
         <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
 
@@ -38,8 +38,13 @@
     <body>
         <div class="container">
             <div class="content">
-                <div class="title">Laravel 5</div>
+                <div class="title">Eagle Financial Services</div>
             </div>
+			<div>
+				<a href="customers" class="btn">Customers</a><br>
+				<a href="stocks" class="btn">Stocks</a><br>
+				<a href="investments" class="btn">Investments</a>
+			</div>
         </div>
     </body>
 </html>
