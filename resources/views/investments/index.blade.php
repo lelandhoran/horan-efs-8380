@@ -46,6 +46,6 @@
 	@endif
 	
 	@if(Auth::guest())
-              <a href="/efs/public/login" class="btn btn-danger"> You need to login to view this!</a>
+              <a href="login" class="btn btn-danger"> You need to login to view this!</a>
     @endif
 @endsection
